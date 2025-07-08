@@ -3,14 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jayantheede.github.io/LIFE-CARE-HOSPITAL",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint ./src --quiet",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
